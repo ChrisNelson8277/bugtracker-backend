@@ -28,9 +28,10 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
+      "https://admirable-licorice-3413e9.netlify.app/",
       "http://localhost:3000",
-      "http://admirable-licorice-3413e9.netlify.app/",
     ],
+    methods: ["GET", "PUT"],
   })
 );
 app.get("/createtable", (req, res) => {
