@@ -20,7 +20,7 @@ db.connect((err) => {
   if (err) {
     throw err;
   }
-  console.log("Mysql connected");
+  console.log("Mysql connected!");
 });
 
 const app = express();
