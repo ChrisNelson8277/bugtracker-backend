@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-      "https://admirable-licorice-3413e9.netlify.app/",
+      "https://admirable-licorice-3413e9.netlify.app",
       "http://localhost:3000",
     ],
     methods: ["GET", "PUT"],
