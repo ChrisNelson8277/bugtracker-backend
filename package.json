@@ -1,5 +1,5 @@
 {
-  "name": "pizzeria-backend",
+  "name": "bugtracker-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisNelson8277/pizzeria-backend.git"
+    "url": "git+https://github.com/ChrisNelson8277/bugtracker-backend.git"
   },
   "author": "",
   "license": "ISC",

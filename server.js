@@ -4,13 +4,18 @@ const port = 5000;
 const cors = require("cors");
 const mysql = require("mysql");
 
+// const db = mysql.createConnection({
+//   host: "localhost",
+//   user: "root",
+//   password: "",
+//   database: "bugtracker_db",
+// });
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
+  host: "bugtracker-3db.czrt8kriox4u.us-east-2.rds.amazonaws.com",
+  user: "admin",
+  password: "Bugtracker123!",
   database: "bugtracker_db",
 });
-
 db.connect((err) => {
   if (err) {
     throw err;
