@@ -29,7 +29,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://admirable-licorice-3413e9.netlify.app/",
+      "http://admirable-licorice-3413e9.netlify.app/",
     ],
   })
 );
